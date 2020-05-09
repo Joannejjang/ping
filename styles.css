@@ -1,0 +1,89 @@
+body {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 11px;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+input {
+  border: solid 1px hsl(0, 0%, 59%);
+  margin: 11px 10px;
+  border-radius: 40px;
+  padding: 16px 210px 16px 40px;
+  font-size: 16px;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+button {
+  -webkit-border-radius: 51px;
+  -moz-border-radius: 51px;
+  border-radius: 51px;
+  border-style: none;
+  color: #FFFFFF;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 17px 60px;
+  background-color: #4F7DF3;
+  box-shadow: 1px 1px 10px 0px #446F91;
+  -webkit-box-shadow: 1px 1px 10px 0px #446F91;
+  -moz-box-shadow: 1px 1px 10px 0px #446F91;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+a {
+  color: black;
+}
+
+ul {
+  display: flex;
+  font-size: 1.7rem;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+li+li {
+  margin-left: 1em;
+}
+
+.logo {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.we {
+  color: hsl(0, 0%, 59%);
+  font-size: 3rem;
+  font-weight: lighter;
+}
+
+.soon {
+  color: black;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.P-TOP {
+  color: black;
+  font-size: 1.3rem;
+  margin: 10px;
+  padding-bottom: 20px;
+}
+
+.dashboard {
+  padding-top: 70px;
+  width: 45%;
+}
+
+.Copyright {
+  color: hsl(0, 0%, 59%);
+  font-size: 16px;
+  padding: 10px;
+}
